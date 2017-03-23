@@ -1,6 +1,20 @@
 # Estructuras de control
 
 # Condicionales
+
+# Operadores de comparacion
+# a < b
+# a <= b
+# a > b
+# a >= b
+# a == b
+# a != b
+
+# Operadores logicos
+# P and Q
+# P or Q
+# not P
+
 condicion = 12 > 4
 if condicion:
 	print "Se cumple la condicion"
