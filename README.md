@@ -1,4 +1,6 @@
-# Notas del curso de Python Básico
+# Curso de Python Básico
+
+Instructor: Alan Badillo Salas [badillo.soft@hotmail.com](badillo.soft@hotmail.com)
 
 ## Comandos Linux
 
