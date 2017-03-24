@@ -2,6 +2,24 @@
 
 Instructor: Alan Badillo Salas [badillo.soft@hotmail.com](badillo.soft@hotmail.com)
 
+## Contenido
+
+1. Variables
+2. Entrada de datos
+3. Condicional `if`
+4. Listas
+5. Iterador `for-in`
+6. Tuplas
+7. Ciclo `while`
+8. Diccionarios
+9. Funciones
+10. Módulos
+
+### Proyectos
+
+1. Poligonos con turtle
+2. Cazdor con turtle
+
 ## Comandos Linux
 
 Moverse a la carpeta Escritorio
