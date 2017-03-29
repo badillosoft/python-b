@@ -2,6 +2,10 @@
 
 Instructor: Alan Badillo Salas [badillo.soft@hotmail.com](badillo.soft@hotmail.com)
 
+## Enlaces
+
+https://pyformat.info/
+
 ## Contenido
 
 1. Variables
