@@ -1,0 +1,24 @@
+avanzar 40
+izquierda 90
+avanzar 40
+izquierda 90
+
+avanzar 80
+izquierda 90
+avanzar 80
+izquierda 90
+
+avanzar 120
+izquierda 90
+avanzar 120
+izquierda 90
+
+avanzar 160
+izquierda 90
+avanzar 160
+izquierda 90
+
+avanzar 200
+izquierda 90
+avanzar 200
+izquierda 90

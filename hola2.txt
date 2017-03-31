@@ -1,0 +1,13 @@
+Hola mundo
+Texto despues
+ del anterior
+Cuidado con poner
+ saltos de linea manualmenteHola mundo
+Texto despues
+ del anterior
+Cuidado con poner
+ saltos de linea manualmenteHola mundo
+Texto despues
+ del anterior
+Cuidado con poner
+ saltos de linea manualmente
