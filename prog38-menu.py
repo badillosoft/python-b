@@ -1,43 +1,31 @@
-import time
+import facli
 
-def menu(nombre, opciones): # MOD
-    print "\x1bc", nombre # MOD
+clientes = [
+    {
+        "nombre": "Ana B.",
+        "email": "ana@correo.com",
+        "direccion": "Av. Boulevard 123 Edif. A 12",
+        "telefonos": "5512345678"
+    }
+]
 
-    for i in range(0, len(opciones)):
-        print "%d. %s" %(i + 1, opciones[i])
+def ver_clientes():
+    pos = 1
+    for cliente in clientes:
+        print pos, cliente["nombre"], cliente["email"]
+        pos += 1
 
-    print
+def agregar_cliente():
+    nombre = raw_input("Nombre completo: ")
+    email = raw_input("Correo: ")
 
-    try:
-        r = int(raw_input("> "))
-    except:
-        r = 0
+    clientes.append({
+        "nombre": nombre,
+        "email": email
+    })
 
-    if r <= 0 or r > len(opciones):
-        print "La opcion no esta en el menu"
-        time.sleep(1)
-        return menu(nombre, opciones) # MOD
 
-    return r
+facli.ver_clientes = ver_clientes
+facli.agregar_cliente = agregar_cliente
 
-def menu_clientes():
-    opc = menu("Clientes", [
-        "Ver todos",
-        "Buscar",
-        "Actualizar",
-        "Eliminar",
-        "Regresar"
-    ])
-
-    if opc == 5:
-        menu_principal()
-
-def menu_principal():
-    opc = menu("Inicio", ["Clientes", "Facturas", "Salir"])
-
-    if opc == 1:
-        menu_clientes()
-    elif opc == 3:
-        print "Hasta luego"
-
-menu_principal()
+facli.menu_principal()
