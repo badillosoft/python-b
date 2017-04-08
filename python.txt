@@ -1,0 +1,12 @@
+if elif else for in while def print return
+continue break import from
+
+int(.) float(.) str(.)
+
+and or not True False
+
+< <= > >= != ==
+
+= ** * / + - % () :
+
+(,) [,] {:}
