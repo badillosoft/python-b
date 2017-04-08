@@ -6,6 +6,8 @@ Instructor: Alan Badillo Salas [badillo.soft@hotmail.com](badillo.soft@hotmail.c
 
 https://pyformat.info/
 
+http://docs.python.org.ar/tutorial/3/stdlib.html
+
 ## Contenido
 
 1. Variables
