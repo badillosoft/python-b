@@ -1,5 +1,5 @@
 if elif else for in while def print return
-continue break import from
+continue break import from try except
 
 int(.) float(.) str(.)
 
@@ -10,3 +10,8 @@ and or not True False
 = ** * / + - % () :
 
 (,) [,] {:}
+
+try:
+    x = 1 / 0
+except:
+    x = 10 ** 100
